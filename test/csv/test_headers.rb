@@ -15,9 +15,9 @@ class TestCSV::Headers < TestCSV
   def setup
     super
     @data = <<-END_CSV.gsub(/^\s+/, "")
-    first,second,third, four
-    A,B,C, D
-    1,2,3,
+    first, second, third, four
+    A, B, C, D
+    1, 2, 3,
     END_CSV
   end
 
